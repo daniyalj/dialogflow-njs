@@ -6,6 +6,6 @@ request.get({
 }, function(error, response, body){
   //console.log(body);
   var parsed = JSON.parse(body);
-  console.log(body);
+  console.log(parsed);
 })
 ;
